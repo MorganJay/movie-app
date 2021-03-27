@@ -9,7 +9,6 @@ const MoviesList = ({
   fav
 }) => {
   const FavouriteComponent = favouriteComponent;
-  !fav && console.log(favourites)
   const checkMovie = movie => {
     let isFavourite = false;
     if (favourites) {
@@ -21,7 +20,6 @@ const MoviesList = ({
     }
     return isFavourite;
   };
-
   return (
     <>
       {movies ? (

@@ -7,7 +7,7 @@ import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavourites';
 import RemoveFavourite from './components/RemoveFavourite';
 
-function App() {
+const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchValue, setSearchValue] = useState('');
   const [favourites, setFavourites] = useState([]);
@@ -76,16 +76,19 @@ function App() {
       <div className="row d-flex align-items-center m-4">
         <MovieListHeading heading="Favourites" />
       </div>
-      <div className="row movie-list mx-4">
+      <div className="row movie-list mx-4 i">
         <MoviesList
           movies={favourites}
           favouriteComponent={RemoveFavourite}
           handleFavouritesClick={removeFavourite}
           fav
+          na
+          wa
+          o
         />
       </div>
     </div>
   );
-}
+};
 
 export default App;

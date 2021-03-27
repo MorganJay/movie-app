@@ -7,7 +7,7 @@ const SearchBox = ({ value, onChange }) => {
         type="search"
         name="search"
         className="form-control"
-        placeholder="Type to search.."
+        placeholder="Type to search"
         value={value}
         onChange={onChange}
       />
