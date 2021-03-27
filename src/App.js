@@ -14,7 +14,7 @@ const App = () => {
   const storageKey = 'react-movie-app-favourites';
 
   const getMovieRequest = async searchValue => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=ba79adb5`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=ba79adb5`;
     const response = await fetch(url);
     const json = await response.json();
     //if (json.Search) setMovies(json.Search);
