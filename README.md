@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d532049-e4ed-4787-9974-3a1c1308750c/deploy-status)](https://app.netlify.com/sites/mjmovieapp/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
